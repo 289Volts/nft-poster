@@ -30,7 +30,7 @@ body {
 
 img {
 	width: 33%;
-	transition: 0.3s ease;
+	transition: 0.5s ease;
 }
 
 .title,
@@ -76,8 +76,6 @@ a {
 
 .images {
 	position: relative;
-	/* top: 5%; */
-	/* height: 40%; */
 }
 
 .one,
@@ -86,7 +84,6 @@ a {
 .four,
 .five,
 .six {
-	/* position: absolute; */
 	position: relative;
 }
 
