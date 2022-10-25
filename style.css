@@ -1,0 +1,252 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+	background-image: url("./PHOTO-2022-10-24-16-22-12_cleanup.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	overflow-x: hidden;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.container {
+	padding: 2rem 1.5rem;
+}
+
+img {
+	width: 33%;
+	transition: 0.3s ease;
+}
+
+.title,
+.subtitle {
+	font-family: "Teko", sans-serif;
+}
+.title {
+	font-size: 2rem;
+	color: #023e8a;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 2.7rem;
+	font-weight: 700;
+	color: white;
+	line-height: 1;
+}
+
+.copy-cta {
+	color: white;
+}
+
+.copy {
+	padding: 0 2rem;
+}
+
+.cta {
+	margin: 0 auto;
+	margin-top: 1rem;
+	border-radius: 50px;
+	padding: 0.6rem;
+	text-align: center;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 0.9rem;
+	color: #fb5607;
+}
+
+.images {
+	position: relative;
+	/* top: 5%; */
+	/* height: 40%; */
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+	/* position: absolute; */
+	position: relative;
+}
+
+.one {
+	top: 0;
+	left: -20%;
+
+	rotate: 10deg;
+}
+
+.two {
+	top: 0;
+	left: -15%;
+}
+.three {
+	top: 2%;
+	left: 75%;
+	rotate: -10deg;
+	position: absolute;
+}
+.four {
+	top: 25%;
+	left: 12%;
+	width: 30%;
+	position: absolute;
+}
+.five {
+	top: 7%;
+	left: 25%;
+	z-index: 1;
+	position: absolute;
+	width: 50% !important;
+}
+.six {
+	top: 30%;
+	left: 13%;
+	width: 35%;
+	translate: 35% -65%;
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 3rem;
+	}
+
+	.subtitle {
+		font-size: 3.7rem;
+	}
+	.wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.container {
+		height: auto;
+		width: 60%;
+		padding: 3rem 1.5rem;
+	}
+
+	img,
+	.four,
+	.five {
+		width: 30% !important;
+	}
+
+	img:hover {
+		scale: 1.1;
+	}
+
+	.one {
+		top: 0;
+		left: 0%;
+		rotate: 10deg;
+	}
+
+	.two {
+		top: 0;
+		left: 4%;
+	}
+	.three {
+		top: 9%;
+		left: 73.5%;
+		rotate: -10deg;
+		position: absolute;
+	}
+	.four {
+		top: 45%;
+		left: 19%;
+		width: 30%;
+		position: absolute;
+	}
+	.five {
+		top: 7%;
+		left: 29%;
+		z-index: 1;
+		position: absolute;
+		width: 50% !important;
+	}
+	.six {
+		top: 30%;
+		left: 13%;
+		width: 35%;
+		translate: -65% 45%;
+	}
+
+	.images {
+		margin-bottom: 10rem;
+	}
+
+	.cta {
+		width: 80%;
+	}
+
+	.copy {
+		font-size: 1.3rem;
+	}
+
+	a {
+		font-size: 1.1rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		width: 50%;
+		margin: 29px auto;
+	}
+	img,
+	.four,
+	.five {
+		width: 20% !important;
+	}
+
+	.one {
+		left: -5%;
+	}
+
+	.four {
+		left: 29%;
+	}
+
+	.five {
+		top: 7%;
+		left: 38%;
+		width: 30% !important;
+	}
+
+	.six {
+		left: 10%;
+	}
+
+	.images {
+		margin-bottom: 8rem;
+		translate: -3%;
+	}
+}
+
+@media (min-width: 1440px) {
+	.images {
+		margin-bottom: 10rem;
+	}
+}
